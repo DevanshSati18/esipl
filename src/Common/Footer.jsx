@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import 'leaflet/dist/leaflet.css';
 import Gislogo from '../Assets/logo/Gislogo.jpg';
+import image1 from '../Assets/isocertificate.jpg';
 
 function Footer() {
   return (
@@ -9,32 +10,40 @@ function Footer() {
         {/* About Section */}
         <div className="flex-1">
           <h2 className="text-2xl font-bold mb-4">Earthcon Systems (India) Pvt. Ltd.</h2>
-          <p className="text-sm mb-4">
+          <p className="text-base mb-4">
             Earthcon Systems (India) Pvt. Ltd., an ISO: 9001:2015 organization is committed to providing comprehensive services like design, supply, and construction.
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             <strong>Address:</strong> D-40, Pocket D, Okhla Phase I, Okhla Industrial Area, New Delhi, Delhi 110020
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             <strong>Email:</strong> info@esipl.net
           </p>
-          <p className="text-sm mb-2">
+          <p className="text-base mb-2">
             <strong>Phone No:</strong> 9899222244, 9899222245
+          </p>
+          
+          {/* Adding margin above Globe Infra Solutions */}
+          <h2 className="text-2xl font-bold mb-4 mt-8">Globe Infra Solutions</h2>
+          <p className="text-base mb-4">
+            Globe Infra Solutions is an ISO: 9001:2015 organization and a sister concern Company of Earthcon Systems (India) Pvt. Ltd.
           </p>
         </div>
 
-        {/* Quick Links Section */}
-        <div className="flex-1">
-          <h2 className="text-2xl font-bold mb-4">Globe Infra Solutions</h2>
-          <p className="text-sm mb-4">
-            Globe Infra Solutions is an ISO: 9001:2015 organization and a sister concern Company of Earthcon Systems (India) Pvt. Ltd.
-          </p>
+        {/* ISO Certificate */}
+        <div className="flex-1 mb-4">
+          <img 
+            src={image1} 
+            alt="ISO Certificate" 
+            className="w-full h-400px object-cover" 
+            style={{ height: '470px' }} 
+          />
         </div>
 
         {/* Google Maps Iframe Section */}
         <div className="flex-1">
           <h2 className="text-2xl font-bold mb-4">Our Projects</h2>
-          <p className="text-sm mb-4">
+          <p className="text-base mb-4">
             Below are the project locations displayed on the map.
           </p>
           {/* Embed Google Maps */}

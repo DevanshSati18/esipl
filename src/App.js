@@ -6,7 +6,7 @@ import Footer from './Common/Footer';
 import Gallery from './Pages/Gallery/Gallery';
 
 //Knowledge Center 
-
+import ContactUsButton from './ContactUsButton.js';
 //What We Do
 import GeohazardMitigation from './Pages/WhatWeDo/GeohazardMitigation.jsx'
 import GroundImprovements from './Pages/WhatWeDo/GroundImprovements.jsx';
@@ -44,6 +44,7 @@ function Layout({ children }) {
       <Navbar />
       <main>{children}</main>
       <Footer />
+      <ContactUsButton />
     </div>
   );
 }

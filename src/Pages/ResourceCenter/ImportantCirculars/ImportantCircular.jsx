@@ -1,7 +1,7 @@
 import React from 'react';
 
 const pdfFiles = [
-    { title: 'Brochure', url: 'http://example.com/path/to/brochure.pdf' }, // Replace with the actual hosted URL
+    { title: 'Circular', url: 'http://example.com/path/to/brochure.pdf' }, // Replace with the actual hosted URL
 ];
 
 const ImportantCircular = () => {

@@ -42,9 +42,7 @@ const News = () => {
                 <h2 className="text-xl font-semibold text-orange-500">
                   Soil Nailing Design & Execution work at Mukarba Chowk to Panipat section from Welspun Enterprises Ltd.
                 </h2>
-                <p className="text-black mt-2">
-                  This project involves soil nailing for slope stabilization on a critical highway section.
-                </p>
+                
               </div>
             </div>
 
@@ -54,9 +52,7 @@ const News = () => {
                 <h2 className="text-xl font-semibold text-orange-500">
                   ESIPL bags “Shored Mechanically Stabilized Earth Wall” project from APCO Infratech Pvt. Ltd. in Doda, Jammu & Kashmir.
                 </h2>
-                <p className="text-black mt-2">
-                  The project focuses on enhancing road safety and stability in a landslide-prone region.
-                </p>
+                
               </div>
             </div>
 
@@ -66,9 +62,7 @@ const News = () => {
                 <h2 className="text-xl font-semibold text-orange-500">
                   ESIPL bags “RS Wall work at Cement factory in Assam” from Dalmia Group.
                 </h2>
-                <p className="text-black mt-2">
-                  The project involves constructing RS walls to support the infrastructure at the cement factory.
-                </p>
+                
               </div>
             </div>
 

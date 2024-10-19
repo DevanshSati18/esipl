@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import 'animate.css';
-import image1 from '../../Assets/KeyPeople/PawanGoel.jpg';
+import image1 from '../../Assets/KeyPeople/PawanGoel1.jpg';
 import image2 from '../../Assets/KeyPeople/AnilMaheshwary.jpg';
 import image3 from '../../Assets/KeyPeople/RajivGoel.jpg';
 import image4 from '../../Assets/KeyPeople/visson.jpeg';

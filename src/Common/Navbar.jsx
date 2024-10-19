@@ -40,7 +40,7 @@ function Navbar() {
   const closeDrawer = () => setIsDrawerOpen(false);
 
   return (
-    <nav className={`text-black p-4 flex items-center h-[7vh] fixed bg-white bg-opacity-60 top-0 left-0 right-0 font-bold text-2xl transition-transform duration-200 ${visible ? 'transform-none' : '-translate-y-full'} z-50`}>
+    <nav className={`text-black p-4 flex items-center h-[7vh] border-black border-b-2 fixed bg-white bg-opacity-60 top-0 left-0 right-0 font-bold text-2xl transition-transform duration-200 ${visible ? 'transform-none' : '-translate-y-full'} z-50`}>
       {/* Logo on the left */}
       <img className='h-16 mr-4' src={esipllogo} alt="Logo" />
 

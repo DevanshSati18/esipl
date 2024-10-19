@@ -38,7 +38,7 @@ const Projects = () => {
           {/* Projects List Title */}
           <div className="text-center mt-8 mb-8">
             <h3 className="text-5xl font-semibold text-orange-600 animate__animated animate__fadeInDown">
-              <i className="text-4xl font-bold mb-2 text-orange-600 pt-9" aria-hidden="true"></i> Projects List
+              <i className="text-4xl font-bold mb-2 text-orange-600 pt-9" aria-hidden="true"></i> Key Projects
             </h3>
             <span className="block text-gray-600 text-lg pt-2">Earthcon Systems (India) Pvt. Ltd.</span>
           </div>

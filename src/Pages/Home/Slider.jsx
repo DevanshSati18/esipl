@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
-import bg1 from '../../Assets/Slider/bg1.jpg';
-import bg2 from '../../Assets/Slider/bg2.webp';
-import bg3 from '../../Assets/Slider/bg3.jpg';
+import bg1 from '../../Assets/Slider/bg4.jpg';
+import bg2 from '../../Assets/Slider/bg5.jpg';
+import bg3 from '../../Assets/Slider/bg6.jpg';
 
 export function CustomSlider() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -61,13 +61,13 @@ export function CustomSlider() {
       <style>{slideInOut}</style>
       <Slider {...settings} className="w-full h-full">
         <div className="relative w-full h-full">
-          <img src={bg1} alt="image 1" className="w-full h-screen object-cover" />
+          <img src={bg2} alt="image 1" className="w-full h-screen object-cover" />
         </div>
         <div className="relative w-full h-full">
-          <img src={bg2} alt="image 2" className="w-full h-screen object-cover" />
+          <img src={bg3} alt="image 2" className="w-full h-screen object-cover" />
         </div>
         <div className="relative w-full h-full">
-          <img src={bg3} alt="image 3" className="w-full h-screen object-cover" />
+          <img src={bg1} alt="image 3" className="w-full h-screen object-cover" />
         </div>
       </Slider>
       <div
@@ -77,8 +77,8 @@ export function CustomSlider() {
           left: 0,
           width: '100%',
           height: '40%', // Adjust this height as necessary
-          background: 'rgba(255, 165, 0, 0.75)',
-          clipPath: 'polygon(0% 0%,60% 0%, 25% 70%, 0% 71%)',
+          background: 'rgba(0, 0, 0, 0.6)', // 50% transparent white
+          clipPath: 'polygon(0% 0%, 60% 0%, 25% 70%, 0% 71%)',
           zIndex: 1,
           display: 'flex',
           flexDirection: 'column',
@@ -89,6 +89,8 @@ export function CustomSlider() {
           overflow: 'hidden',
           transform: 'translateY(33%)', // Adjust if necessary
         }}
+        
+        
       >
         <div className="text-left">
           <h1
