@@ -144,7 +144,7 @@ const Section = ({ title, images, setRef, onImageClick }) => {
             <h2 className="text-4xl font-bold text-center text-orange-600 mb-8">{title}</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 animate__animated animate__fadeIn">
                 {images.map((image, index) => (
-                    <div className="relative group" key={index}>
+                    <div className="relative image-card" key={index}>
                         <img 
                             src={image} 
                             alt={`Image ${index + 1}`} 

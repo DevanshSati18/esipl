@@ -27,8 +27,13 @@
 }
 
 /* Additional hover effects for images */
+.image-card img {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
 .image-card:hover img {
-    transform: scale(1.1);
+    transform: scale(1.15);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
 }
 
 .image-card:hover .overlay {
@@ -37,4 +42,29 @@
 
 .image-card:hover .overlay-text {
     opacity: 1;
+}
+
+.image-card {
+    position: relative;
+}
+
+.image-card:hover {
+    z-index: 100;
+}
+/* Fade all images when hovering the grid */
+.grid:hover .image-card {
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+/* Keep hovered image fully visible */
+.grid .image-card:hover {
+    opacity: 1;
+}
+
+/* Bigger pop only on desktop */
+@media (min-width: 1024px) {
+    .image-card:hover img {
+        transform: scale(1.4);
+    }
 }
